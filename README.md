@@ -21,3 +21,5 @@ Este macro-proyecto constaría de varios equipos de trabajo o empresas subcontra
 * Seguridad y mantenimiento físico de los servidores
 * Análisis continuo de seguridad informática en todos los sistemas
 * Creación y mantenimiento de web y aplicaciones para los ciudadanos
+
+## [Ir a la web](http://pantocracia.hol.es)
