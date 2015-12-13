@@ -1,0 +1,162 @@
+			* { margin: 0; padding: 0; }
+			ul li { list-style-type: none; font-family: "Times new roman";}
+			a { 
+				text-decoration: none; 
+				color: black;
+			}
+			a:hover {text-decoration: underline;}
+			#supertop {
+				width: 100%;
+				height: 100px;
+				overflow: hidden; /* Si el superslogan no cabe, desaparece */
+			}
+			/* LOGO AMB TEXt
+			#superlogo {
+				padding-top:25px;
+				padding-left: 20px;
+				float:left;
+				font-size: 60px;
+			}*/
+			#superlogo {
+				float:left;
+				padding-left: 10px;
+			}
+			#superlogo img {
+				width: 300px;
+				/*height: 96px;*/
+				height: 95px;
+			}
+			#superslogan {
+				padding-top:50px;
+				padding-right: 30px;
+				float:right;
+				font-size: 30px;
+				letter-spacing:5px;
+			}
+			#nav {
+				width: 100%;
+				height: 50px;
+				background-color: #004b98;
+			    /*padding: 20px;*/
+			    /*position: fixed;
+				top: 0;
+				left: 0;		PER FICAR AL FIXED
+				z-index: 9999;*/
+				overflow: hidden; /* Cuando algo del menu no cabe, se "esconde" */
+			}
+			#navleft ul li { 
+				float: left; 
+				list-style-type: none; 
+			}
+			#navright ul li { 
+				float: right; 
+				list-style-type: none; 
+			}
+			#nav li a { 
+				/*background: #004b98; */
+				color: white; 
+				display: block; 
+				font-family: Arial, Helvetica, sans-serif; 
+				padding: 15.5px 30px; 
+				text-decoration: none;
+			}
+			#nav ul li a:hover { 
+				background: #0069d4; 
+			}
+			#cuerpo {
+				width: 100%;
+				height: 100%;
+				min-height: 200px;
+				/*
+				padding-left: 20px;
+				padding-right: 20px;
+				padding-top: 20px;
+				padding-bottom: 20px;
+				*/
+			}
+			
+			#searchbox {
+				font-family: Arial, Helvetica, sans-serif; 
+				
+				color: white;
+				background-color: transparent;
+				border-style: solid;
+				border-width: 0px 0px 1px 0px;
+				border-color: white;
+				width: 100%;
+
+				/*padding-top: 15.5px; A CASA BE 
+				font-size: 15px;
+				height: 40px;*/
+				padding-top: 10%;
+				font-size: 15px;
+				height: 100%;
+				
+			}
+			li a#buscar{
+				padding: 15.5px 10px;
+
+			}
+			li a#ayuda{
+				padding: 15.5px 10px;
+			}
+			#footer {
+				border-left-width: 0px;
+				border-right-width: 0px;
+				border-top-width: 1px;
+				border-bottom-width: 0px;
+				border-style: solid;
+				border-color: gray;
+				width: 100%;
+				clear:both;
+				height: 230px;
+				background-color: #f2f2f2;
+
+			}
+			#left {
+				float:left;
+				width: 33%;
+				height: 100%;
+			}
+			#middle {
+				border-left-width: 1px;
+				border-right-width: 1px;
+				border-top-width: 0px;
+				border-bottom-width: 0px;
+				
+				border-style: solid;
+				border-color: gray;
+				float:left;
+				width: 33%;
+				height: 100%;
+			}
+			#middle img{
+				width:50%;
+				max-width:170px;
+				height:100%;
+				border:0;
+				float:left;
+			}
+			#right {
+				float:left;
+				width: 33%;
+				height: 100%;
+			}
+			#right img{
+				float:left;
+				width: 50%;
+				max-width: 190px;
+			}
+			.footcont {
+				padding: 30px;
+				overflow: hidden;
+			}
+			
+			#copyright {
+				background-color: black;
+				color: white;
+				clear: both;
+				text-align: center;
+				padding: 5px;
+				font-size: 11px;
+			}
