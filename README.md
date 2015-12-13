@@ -1,3 +1,3 @@
 # Pantocracia
 
-Web per Llenguatge de marques (HTML)
+## Web per Llenguatge de marques (HTML)
